@@ -613,6 +613,7 @@ ${result}`
 
 .upload-section-main {
   margin: 20px 0;
+  text-align: center; /* 确保上传区域内容居中 */
 }
 
 .upload-area-main {
@@ -649,7 +650,8 @@ ${result}`
   border-radius: 15px;
   overflow: hidden;
   max-width: 300px;
-  margin: 20px 0;
+  margin: 20px auto; /* 改为auto居中 */
+  text-align: center; /* 确保图片居中 */
 }
 
 .uploaded-preview-main img {

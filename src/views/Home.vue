@@ -390,6 +390,7 @@ export default {
   gap: 10px;
   min-width: 200px;
   justify-content: center;
+  margin: 0 auto; /* 确保按钮居中 */
 }
 
 .btn-icon {
